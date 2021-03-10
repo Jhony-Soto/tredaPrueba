@@ -12,15 +12,10 @@
 
     <!-- CSS -->
     <link href="<?php echo URL; ?>css/style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <script src="<?php echo URL; ?>js/jquery-3.2.1.min.js"></script> 
 </head>
 <body>
-    <!-- logo, check the CSS file for more info how the logo "image" is shown -->
-    <div class="logo"></div>
-
-    <!-- navigation -->
-    <div class="navigation">
-        <a href="<?php echo URL; ?>">home</a>
-        <a href="<?php echo URL; ?>home/exampleone">home/exampleone</a>
-        <a href="<?php echo URL; ?>home/exampletwo">home/exampletwo</a>
-        <a href="<?php echo URL; ?>songs">songs</a>
-    </div>
+   
